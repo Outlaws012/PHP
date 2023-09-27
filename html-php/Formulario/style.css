@@ -1,0 +1,165 @@
+:root {
+  --primary: #162834;
+  --secondary: #5297c4;
+  --other: #5fc654;
+  --white: #fff;
+  --danger: #d03432;
+  --success: #049c64;
+  --lg: 2.2rem;
+  --md: 1.8rem;
+  --sm: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #26545a;
+  color: var(--white);
+}
+
+body {
+  font-style: var(--md);
+}
+
+.alert {
+  margin-bottom: 15px;
+  padding: 20px 30px;
+  color: var(--white);
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+form {
+  width: 100%;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+input {
+  height: 3.6rem;
+}
+
+textarea {
+  height: 15rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0 0.4rem;
+  border: 0;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  font-size: var(--md);
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.btn {
+  padding: 1rem 2.5rem;
+  margin-top: 1.5rem;
+  border: 0;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  text-align: center;
+  font-size: var(--md);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.btn-other {
+  background-color: var(--other);
+  color: var(--white);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 600px;
+  margin: 3rem 0;
+  background-color: var(--primary);
+  border: solid 1px var(--other);
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  overflow: hidden;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding-bottom: 4rem;
+}
+
+.controls-container h1 {
+  margin: 2rem 0 1rem;
+  color: var(--other);
+  text-align: center;
+}
+
+.form-controls {
+  display: block;
+  padding: 1rem 0;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 3rem 1rem;
+  background-color: var(--other);
+  color: var(--white);
+}
+
+.footer-left,
+.footer-right {
+  width: 100%;
+  text-align: center;
+}
